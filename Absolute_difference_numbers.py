@@ -1,0 +1,11 @@
+n,x=map(int,input().split())
+a=str(n)
+l=len(a)
+x1=10**(l-x)
+x2=10**x
+m1=n//x1
+m2=n%x2
+if(m2>m1):
+    print(m2-m1)
+else:
+    print(m1-m2)
